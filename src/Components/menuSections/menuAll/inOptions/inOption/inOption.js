@@ -10,13 +10,13 @@ const inOption = (props) => {
         
         <div className="inOption">
         <p className="inHead">{props.head}</p>
-        <div className="inImgBox">
+        {/* <div className="inImgBox">
             <img src={props.image} alt="Maccain"/>
-        </div>
+        </div> */}
        
         <p className="inContent">{props.content}</p>
         <p className="inPrice">&#x20B9; {props.price} </p>
-        <p className="customize" onClick={props.customization}>Customize</p>
+        {/* <p className="customize" onClick={props.customization}>Customize</p> */}
        
         <button type="button" className="inOpButton" onClick={()=>props.add({head:props.head,counter:1,url:props.image,price:props.price,content:props.content})} >Add to Cart</button>
         <NavLink to="/order" onClick={()=>props.add({head:props.head,counter:1,url:props.image,price:props.price,content:props.content})}>Order Now</NavLink>

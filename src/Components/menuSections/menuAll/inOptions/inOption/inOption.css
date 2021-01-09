@@ -1,9 +1,9 @@
 .inOption{
     margin:20px 7px;
     padding:10px 3px;
-    height:auto;
+    height:30px;
     display: inline-block;
-    min-height: 380px;
+    min-height: 150px;
     transition: 0.4s ease all;
     width:300px;
     /* min-width: 300px;
