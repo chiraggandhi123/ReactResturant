@@ -59,6 +59,9 @@ class section1 extends Component {
                         <li>
                             <GrabBtn url="/order" content="Order" /> 
                         </li>
+                        <li>
+                            <GrabBtn url="/cart" content="Cart" /> 
+                        </li>
                     </ul>
                     </section>
                     
