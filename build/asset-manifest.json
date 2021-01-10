@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.3b3f6baa.chunk.css",
-  "main.js": "/static/js/main.2691c520.chunk.js",
-  "main.js.map": "/static/js/main.2691c520.chunk.js.map",
+  "main.js": "/static/js/main.b09d3f98.chunk.js",
+  "main.js.map": "/static/js/main.b09d3f98.chunk.js.map",
   "static/css/1.b08c1f7d.chunk.css": "/static/css/1.b08c1f7d.chunk.css",
   "static/js/1.1625430c.chunk.js": "/static/js/1.1625430c.chunk.js",
   "static/js/1.1625430c.chunk.js.map": "/static/js/1.1625430c.chunk.js.map",
@@ -20,9 +20,9 @@
   "static/media/OrderOnline.css": "/static/media/serve.f2174f5f.png",
   "static/media/Cart.css": "/static/media/cart.56cff607.jpg",
   "static/media/Offer.css": "/static/media/offer.d5ab2f42.png",
-  "static/css/1.b08c1f7d.chunk.css.map": "/static/css/1.b08c1f7d.chunk.css.map",
   "static/css/main.3b3f6baa.chunk.css.map": "/static/css/main.3b3f6baa.chunk.css.map",
+  "static/css/1.b08c1f7d.chunk.css.map": "/static/css/1.b08c1f7d.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.dce89d1126f84548e0b07c647cae6d2a.js": "/precache-manifest.dce89d1126f84548e0b07c647cae6d2a.js",
+  "precache-manifest.7d66e6eef40c3a989c91a99f3c5d7895.js": "/precache-manifest.7d66e6eef40c3a989c91a99f3c5d7895.js",
   "service-worker.js": "/service-worker.js"
 }
