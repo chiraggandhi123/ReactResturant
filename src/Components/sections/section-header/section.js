@@ -9,7 +9,7 @@ import SpecOffer from '../spec-offer/specOffer';
 import Stacked from '../stacked-photos/stacked';
 import Map from '../../miscelleous/Map';
 import Footer from '../../navigation/footer/footer';
-import {NavLink} from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
 
 let back = <Brand />;
 class section1 extends Component {
