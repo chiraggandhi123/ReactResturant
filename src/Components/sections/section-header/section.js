@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './section.css';
+
 import Brand from '../../miscelleous/brand/brand';
 import GrabBtn from '../../buttons/grab-offer/grab-btn';
 import Tiles from '../section-tiles/tiles/tiles';
@@ -8,6 +9,7 @@ import SpecOffer from '../spec-offer/specOffer';
 import Stacked from '../stacked-photos/stacked';
 import Map from '../../miscelleous/Map';
 import Footer from '../../navigation/footer/footer';
+import {NavLink} from 'react-router-dom';
 
 let back = <Brand />;
 class section1 extends Component {
@@ -47,9 +49,19 @@ class section1 extends Component {
                 <section className="Header">
                     {this.props.children}
                     {back}
-                    <div className="button-offer">
-                        <GrabBtn url="/offers" content="Grab Offer" />
-                    </div>
+                    
+                    <section className="menuHeader">
+                    <ul>
+                        
+                        <li>
+                            <GrabBtn url="/menu" content="Menu" />    
+                        </li>
+                        <li>
+                            <GrabBtn url="/order" content="Order" /> 
+                        </li>
+                    </ul>
+                    </section>
+                    
                     <div className="controls">
                         <div className="internal-c">
                             <div href="#" className={this.state.cls1} onClick={() => this.clickBtn(1)}></div>
