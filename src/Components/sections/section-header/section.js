@@ -50,7 +50,7 @@ class section1 extends Component {
                     {this.props.children}
                     {back}
                     
-                    <section className="menuHeader">
+                    <section className="buttonContainer">
                     <ul>
                         
                         <li>
